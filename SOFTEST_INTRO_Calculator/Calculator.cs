@@ -230,4 +230,25 @@ public class Calculator
                 "Execution time cannot be negative.");
         }
     }
+
+    public double GenMagicNum(
+    int choice, string path, IFileReader fileReader)
+    {
+        ArgumentNullException.ThrowIfNull(fileReader);
+
+        if (choice < 0)
+        {
+            throw new ArgumentOutOfRangeException(nameof(choice));
+        }
+
+        string[] magicStrings = fileReader.Read(path);
+
+        if (choice >= magicStrings.Length)
+        {
+            throw new ArgumentOutOfRangeException(nameof(choice));
+        }
+
+        double magicNumber = double.Parse(magicStrings[choice]);
+        return 2 * Math.Abs(magicNumber);
+    }
 }
