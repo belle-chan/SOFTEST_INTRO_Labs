@@ -12,7 +12,7 @@
     <PackageType>McpServer</PackageType>
 
     <!-- Set up the MCP server to be a self-contained application that does not rely on a shared framework -->
-    <SelfContained>true</SelfContained>
+    <SelfContained>false</SelfContained>
     <PublishSelfContained>true</PublishSelfContained>
 
     <!-- Set up the MCP server to be a single file executable -->

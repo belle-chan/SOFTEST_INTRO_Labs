@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12210.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTEST_INTRO_Calculator", "SOFTEST_INTRO_Calculator\SOFTEST_INTRO_Calculator.csproj", "{BE4BDEE0-2A16-491B-A03A-27AA49D96147}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTEST_INTRO_Calculator.AcceptanceTests", "SOFTEST_INTRO_Calculator.AcceptanceTests\SOFTEST_INTRO_Calculator.AcceptanceTests.csproj", "{903BABD2-528B-42AA-B126-C113EED41E51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTEST_INTRO_Calculator.IntegrationTests", "SOFTEST_INTRO_Calculator.IntegrationTests\SOFTEST_INTRO_Calculator.IntegrationTests.csproj", "{C1BAE5A2-D553-4CBE-9D7D-EFD8E7BB07CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTEST_INTRO_Calculator.Web", "SOFTEST_INTRO_Calculator.Web\SOFTEST_INTRO_Calculator.Web.csproj", "{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTEST_INTRO_Calculator.WebUiTests", "SOFTEST_INTRO_Calculator.WebUiTests\SOFTEST_INTRO_Calculator.WebUiTests.csproj", "{86DA28F6-063F-4804-9E3A-5AAF0087AF39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,8 +73,35 @@ Global
 		{C1BAE5A2-D553-4CBE-9D7D-EFD8E7BB07CF}.Release|x64.Build.0 = Release|Any CPU
 		{C1BAE5A2-D553-4CBE-9D7D-EFD8E7BB07CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{C1BAE5A2-D553-4CBE-9D7D-EFD8E7BB07CF}.Release|x86.Build.0 = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|x64.Build.0 = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Debug|x86.Build.0 = Debug|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|x64.Build.0 = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{A5F6D5CC-8D83-472C-9C87-3DC037FDABE1}.Release|x86.Build.0 = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|x64.Build.0 = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Debug|x86.Build.0 = Debug|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|x64.ActiveCfg = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|x64.Build.0 = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|x86.ActiveCfg = Release|Any CPU
+		{86DA28F6-063F-4804-9E3A-5AAF0087AF39}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25DEFBA5-2B43-48A6-A7E1-E7408F1AFA08}
 	EndGlobalSection
 EndGlobal
